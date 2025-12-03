@@ -54,8 +54,10 @@ The goal of this project is to create a classifier that learns these patterns us
 ### Feature extraction
 
 1. Download datasets: mon_standard.pkl, unmon_standard10.pkl, unmon_standard10_3000.pkl
+    <br/>
     Link: https://drive.google.com/drive/folders/13sDplxKUNmntbYr6WhpqQARiBvH41Oum
 2. Upload mon_standard.pkl, unmon_standard10.pkl to content folder in Google Colab.
+    <br/>
     If you encounter a RAM error due to the data size when using the unmon_standard10.pkl file, please use the unmon_standard10_3000.pkl file instead.
     And then, modify the path of file: /content/unmon_standard10_3000.pkl
 3. Download and run feature_extraction.ipynb.
@@ -125,7 +127,8 @@ The BigEnough dataset, which was processd with TrafficSliver BWR and split into 
 ### Data processing
 
 1. Download datasets:
-    Link: https://drive.google.com/drive/folders/1SePvqnlridCldmjXbr_TSGigohGT8TXV
+   <br/>
+   Link: https://drive.google.com/drive/folders/1SePvqnlridCldmjXbr_TSGigohGT8TXV
 2. Upload mon.zip, unmon.zip to content folder in Google Colab.
 3. Download data_processing.ipynb in extra folder.
 4. Run data_processing.ipynb.
